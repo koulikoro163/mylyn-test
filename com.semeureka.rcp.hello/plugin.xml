@@ -39,6 +39,12 @@
             name="View Part1"
             restorable="true">
       </view>
+      <view
+            class="com.semeureka.rcp.hello.ViewPart2"
+            id="com.semeureka.rcp.hello.ViewPart2"
+            name="View Part2"
+            restorable="true">
+      </view>
    </extension>
    <extension
          point="org.eclipse.ui.perspectiveExtensions">
