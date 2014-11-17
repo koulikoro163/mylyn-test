@@ -31,5 +31,27 @@
          </property>
       </product>
    </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.semeureka.rcp.hello.ViewPart1"
+            id="com.semeureka.rcp.hello.ViewPart1"
+            name="View Part1"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="*">
+         <view
+               id="com.semeureka.rcp.hello.ViewPart1"
+               minimized="false"
+               ratio="0.25"
+               relationship="left"
+               relative="org.eclipse.ui.editorss">
+         </view>
+      </perspectiveExtension>
+   </extension>
 
 </plugin>
